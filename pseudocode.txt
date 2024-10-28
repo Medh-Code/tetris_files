@@ -1,0 +1,26 @@
+how to move the shape down without interfering with other game shapes:
+
+while whatever is underneath the bottom most point of the shape is empty:
+
+    set the value of each space the shape occupies == the space underneath it
+
+call the generate shape fucntion again to start this function again with a new shape
+
+
+
+
+
+MEANWHILE the user can press DOWN ARROW to move the shape down 1
+use onkey instead of onkeypress to allow the user to hold while the shape 'falls'
+
+#------------------------------------------------------------------
+
+HL = orange = 2
+
+HT = yellow = 1
+
+VT = blue = 3
+
+S = red = 4
+
+Vertical = light blue = 5
